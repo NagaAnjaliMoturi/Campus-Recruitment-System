@@ -11,7 +11,7 @@ const studentsRouter = require('./routes/api/students');
 const jobsRouter = require('./routes/api/jobs');
 const profileRouter = require('./routes/api/profile');
 
-const uri = "mongodb+srv://509:varun9989@cluster0.4elj2vx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" // Make sure this is correctly set in your environment variables
+const uri = "mongodb+srv://varunmareedu9493:varun9493@cluster0.yya27.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" // Make sure this is correctly set in your environment variables
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
